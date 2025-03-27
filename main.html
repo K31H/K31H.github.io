@@ -21,7 +21,9 @@
             href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" 
             rel="stylesheet"
         />
+
     </head>
+
     <body class="bg-light">
         <header>
             <!-- Navbar -->
@@ -34,9 +36,11 @@
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                         <span class="navbar-toggler-icon"></span>
                     </button>
+
                     <!-- Collapsable Nav tabs -->
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav ms-auto">
+
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Home</a></li>
 
@@ -58,34 +62,46 @@
 
             <!-- Carousel -->
             <div id="carouselID" class="carousel slide" data-bs-ride="carousel">
+
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselID" data-bs-slide-to="0" class="active"></button>
                     <button type="button" data-bs-target="#carouselID" data-bs-slide-to="1"></button>
                     <button type="button" data-bs-target="#carouselID" data-bs-slide-to="2"></button>
                 </div>
+
                 <div class="carousel-inner">
                     <div class="carousel-item active">
+                        
                         <img 
                             src="https://placehold.co/600x150" 
                             class="d-block w-100" 
                             alt="Slide 1"
                         />
+
                     </div>
+
                     <div class="carousel-item">
+                        
                         <img 
                             src="https://placehold.co/600x150" 
                             class="d-block w-100" 
                             alt="Slide 2"
                         />
+
                     </div>
+
                     <div class="carousel-item">
+                        
                         <img 
                             src="https://placehold.co/600x150" 
                             class="d-block w-100"
                             alt="Slide 3"
                         />
+
                     </div>
+
                 </div>
+
                 <button 
                     class="carousel-control-prev" 
                     type="button" 
@@ -93,7 +109,9 @@
                     data-bs-slide="prev"
                 >
                     <span class="carousel-control-prev-icon"></span>
+
                 </button>
+
                 <button 
                     class="carousel-control-next" 
                     type="button" 
@@ -101,53 +119,97 @@
                     data-bs-slide="next"
                 >
                     <span class="carousel-control-next-icon"></span>
+
                 </button>
 
             </div>
+
         </header>
+
         <main>
+            <!-- Main Content -->
             <div class="container my-5">
+               
                 <div class="row g-4">
+                    
                     <div class="col-md-4">
-                        <div class="card shadow-lg">
+                        
+                        <div class="card shadow-lg border-dark">
+                            
                             <img src="https://placehold.co/300" class="card-img-top" alt="Image">
+                            
                             <div class="card-body">
                                 <h5 class="card-title">Product 1</h5>
                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed ...</p>
-                                <a href="#" class="btn btn-success">Read More</a>
+                                <a 
+                                    name="product-1-btn"
+                                    class="btn btn-success"
+                                    href="#" 
+                                    role="button"
+                                    >Read More</a
+                                >
                             </div>
+
                         </div>
+
                     </div>
 
                     <div class="col-md-4">
-                        <div class="card shadow-lg">
+                        
+                        <div class="card shadow-lg border-dark">
+                        
                             <img src="https://placehold.co/300" class="card-img-top" alt="Image">
+                        
                             <div class="card-body">
                                 <h5 class="card-title">Product 2</h5>
                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed ...</p>
-                                <a href="#" class="btn btn-warning">Read More</a>
+                                <a 
+                                    name="product-2-btn"
+                                    class="btn btn-warning"
+                                    href="#" 
+                                    role="button"
+                                    >Read More</a
+                                >
                             </div>
+
                         </div>
+
                     </div>
 
                     <div class="col-md-4">
-                        <div class="card shadow-lg">
+                        
+                        <div class="card shadow-lg border-dark">
+                            
                             <img src="https://placehold.co/300" class="card-img-top" alt="Image">
+                            
                             <div class="card-body">
                                 <h5 class="card-title">Product 3</h5>
                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed ...</p>
-                                <a href="#" class="btn btn-danger">Read More</a>
+                                <a 
+                                    name="product-3-btn"
+                                    class="btn btn-danger"
+                                    href="#" 
+                                    role="button"
+                                    >Read More</a
+                                >    
+
                             </div>
+
                         </div>
+
                     </div>
+
                 </div>
+
             </div>
-            
-        
+                    
         </main>
-        <footer>
-            <!-- place footer here -->
-        </footer>          
+        
+        <!-- Footer -->
+        <footer class="bg-dark text-light text-center py-3">
+            <p>© 2025 MyBrand | <a href="#" class="text-light">Privacy Policy</a></p>
+        </footer>       
+        
         <!-- Bootstrap JavaScript Libraries -->
         <script
             src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
